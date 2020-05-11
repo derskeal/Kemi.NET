@@ -1,0 +1,33 @@
+[
+  {
+  "command": "start|stop|reboot|shutdown",
+  "arguments": ["node", "/home/derskeal/Downloads/test.js"],
+  "options": "--output=lol.json",
+  "flags": "-f"
+  },
+  {
+    "command": "start",
+    "arguments": ["node", "/home/derskeal/Downloads/test.js"]
+  },
+  {
+    "command": "stop",
+    "arguments": ["app_name", "OR", "app_id"]
+  },
+  {
+    "command": "list"
+  },
+  {
+    "command": "start",
+    "arguments": {
+      "executableName": "node",
+      "executableArgs": ["/home/derskeal/Downloads/test.js"]
+    }
+  },
+  {
+    "command": "stop",
+    "arguments": {
+      "app_name": "packer-service-(OR",
+      "app_id": 4
+    }
+  }
+]
